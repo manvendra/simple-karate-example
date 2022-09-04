@@ -1,5 +1,8 @@
 Feature: Feature to test Google website
 
+  Background:
+    * print name.first
+
   Scenario: Google site should be up
     Given url 'https://www.google.com'
     When method Get
